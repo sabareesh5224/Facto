@@ -1,0 +1,68 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* Equal space between cards */
+  padding: 0 200px;
+  /* Add padding to prevent cards from sticking to the corners */
+  margin-top: 20px;
+}
+
+.card {
+  width: calc(33.33% - 20px);
+  /* Three cards per row with some spacing */
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #070724;
+  /* Background color */
+  color: white;
+  border-radius: 20px;
+  position: relative;
+  /* Add position relative for button positioning */
+  transition: transform 0.3s ease;
+  /* Add transition for hover effect */
+  display: flex;
+  /* Use flexbox */
+  flex-direction: column;
+  /* Align button vertically */
+  justify-content: space-between;
+  /* Center button vertically */
+  align-items: center;
+  box-shadow: 50px;
+  border: 3px solid #696982;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  /* Move card slightly upwards on hover */
+}
+
+.card h3 {
+  margin-top: 0;
+  font-family: 'Antonio';
+}
+
+.card p {
+  margin-bottom: 0;
+  font-family: 'Spartan';
+}
+
+.card button {
+  background-color: rgba(255, 255, 255, 0.1);
+  /* Transparent white background for button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  /* Add transition for button color change */
+  align-self: center;
+  /* Center button horizontally */
+  margin-top: 20px;
+}
+
+.card button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  /* Lighter background color on hover */
+}

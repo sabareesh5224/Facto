@@ -1,0 +1,63 @@
+.accordion {
+    font-family: 'Arial', sans-serif;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    
+    overflow: hidden;
+    margin-left: 400px;
+    margin-right: 400px;
+  }
+  
+  .accordion-item {
+    border-bottom: 1px solid #070724;
+  }
+
+  
+  
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    cursor: pointer;
+    background-color: #070724;
+    color: #bd93f9;
+    font-weight: bold;
+  }
+  
+  .accordion-header:hover {
+    background-color: #070724;
+  }
+  
+  .accordion-content {
+    padding: 15px 20px;
+    background-color: #070724;
+    color: #bd93f9;
+  }
+  
+  .accordion-icon {
+    font-size: 18px;
+  }
+  
+  .accordion-icon:hover {
+    color: black;
+  }
+  .card button {
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Transparent white background for button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 50px;
+    transition: background-color 0.3s ease;
+    /* Add transition for button color change */
+    align-self: center;
+    /* Center button horizontally */
+    margin-top: 20px;
+  }
+  .card button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    /* Lighter background color on hover */
+  }

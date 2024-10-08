@@ -1,0 +1,43 @@
+
+  
+  .acc {
+    display: flex;
+    flex-direction: column; /* Ensure contents are displayed in a column */
+    
+    margin-left: 100px; /* Center items horizontally */
+  }
+  
+  /* Existing CSS Below */
+  
+  .search-bar {
+    position: relative;
+    display: flex;
+    margin-top: 100px;
+    align-items: center;/* Adjusted to column layout */
+    
+  }
+  
+  .searchinp1 {
+    font-size: 1rem;
+    border-radius: 70px;
+    padding: 10px;
+    color: #bd93f9;
+    background-color: transparent;
+    margin-left: 620px;
+  }
+  
+  .search-icon {
+    color: #bd93f9;
+    font-size: 1.5rem;
+    margin-left: -30px;
+    cursor: pointer;
+  }
+  
+  @media (min-width: 768px) {
+    .search-bar {
+      margin-top: 140px;
+      margin-left: 200px;
+    }
+  }
+  
+  

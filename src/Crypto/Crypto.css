@@ -1,0 +1,103 @@
+body {
+    background-color: #070724;
+    color: white;
+    font-family: 'Antonio';
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 20px;
+}
+
+.crypto {
+    min-width: 100%;
+    height: 350px;
+    border: 10px solid #070724;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+}
+
+
+.crypto-header {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    margin-right: 200px;
+    
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.searchinp {
+    font-size: 1rem;
+    border-radius: 70px;
+    padding: 10px;
+    color: #bd93f9;
+    background-color: transparent;
+    margin-left: 160px;
+}
+
+.search-icon {
+    color: #bd93f9;
+    font-size: 1.5rem;
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    margin-right: 200px;
+   
+    margin-left: 180px;
+}
+
+.container-news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.news {
+    margin-top: 25px;
+    font-size: 2rem;
+}
+
+
+.cost{
+    margin-right: -20px;
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .crypto {
+        min-width: 400px;
+        margin-left: 20px;
+    }
+
+    .search-bar {
+        margin-top: 140px;
+        margin-left: 200px;
+    }
+
+    .price {
+        margin-left: 20px;
+    }
+}
